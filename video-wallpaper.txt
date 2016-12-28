@@ -1,1 +1,0 @@
-xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --profile wallpaper --wid WID  /path/to/video
