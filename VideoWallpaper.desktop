@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Video Wallpaper
+Comment=Video Wallpaper
+Exec=sh -c 'xwinwrap -ni -fs -s -st -sp -b -nf -- mpv --profile wallpaper --wid WID  ~/.config/mpv/video.mp4'
+Icon=livewallpaper
+Terminal=false
+StartupNotify=false
+Type=Application
+Categories=System;Application;
