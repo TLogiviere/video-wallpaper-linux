@@ -2,8 +2,8 @@
 
 # System requirements
 
-- X11
-- shantz-xwinwrap
+- Xorg
+- [shantz-xwinwrap](https://code.launchpad.net/xwinwrap) [DEB-packages](https://launchpad.net/~varlesh-l/+archive/ubuntu/ubuntu-tools/+packages?field.name_filter=xwinwrap&field.status_filter=published&field.series_filter=)
 - mpv
 
 # Install
