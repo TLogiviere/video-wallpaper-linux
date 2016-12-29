@@ -13,6 +13,19 @@ cp -R video-wallpaper-linux/mpv ~/.config/
 cp video-wallpaper-linux/VideoWallpaper.desktop ~/.local/share/applications/
 ```
 # Settings
-Change options for your self on `~/.config/mpv/mpv.conf`. See man [mpv](https://mpv.io/manual/master/#options)
+### MPV config ###
+Change options for your self on `~/.config/mpv/mpv.conf`
 
-By default use russian lang/subs and options for intel GPU (vaapi and opengl)
+By default use options for intel GPU:
+```
+hwdec=vaapi
+vo=opengl
+```
+See man [mpv video](https://mpv.io/manual/stable/#video) for Nvidia or AMD cards.
+
+### Launcher ###
+Used desktop file for launch videowallpaper.
+
+By default use path for file `~/.config/mpv/video.mp4`
+
+You can change path to file for your self on `~/.local/share/applications/VideoWallpaper.desktop`
